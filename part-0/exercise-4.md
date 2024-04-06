@@ -26,6 +26,6 @@ sequenceDiagram
     deactivate server
 
     Note right of server: The server creates a new note object, and adds it to an array called notes.
-    Note right of browser: The browser renders the new note object on the page.
+    Note left of browser: The browser renders the new note object on the page.
     
 ```
